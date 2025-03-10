@@ -1,0 +1,145 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #fafafa;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.fd9222 {
+    color: #fd9222;
+}
+
+/* Navigation */
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.03em;
+}
+.style-logo {
+    font-style: italic;
+}
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+}
+.nav .nav-link:hover,
+.nav .nav-link:hover {
+    color: #fd9222;
+}
+
+/* 1 Section */
+.first-section {
+    background: #1e1823;
+}
+.h1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21429;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+.button-buy-now {
+    background: #fd9222;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+.link-how-its-made {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+.scroll-down {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* 2 Section */
+.second-section {
+    background: #1e1823;
+}
+.second-section-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+.second-section-info {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* 3 Section */
+.third-section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.third-section-info {
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.third-section-milk-chocolate {
+    background: #fd9222;
+}
+.third-section-milk-chocolate-nuts-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.third-section-milk {
+    background: #fff;
+}
+.third-section-milk-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+.third-section-nuts {
+    background: #1e1823;
+}
+
+/* 4 Section */
+.fourth-section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+.fourth-section-title-info {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #111;
+}

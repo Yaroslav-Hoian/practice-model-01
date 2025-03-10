@@ -3,107 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <!-- Navigation -->
         <nav>
-            <h2><a href="./index.html"></a>simply chocolate</h2>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#first-nav">How it's made?</a></li>
-                    <li><a href="#second-nav">Chocolate is loved</a></li>
+            <h2 class="logo"><a href="./index.html"><span class="style-logo">SIMPLY</span> CHOCOLATE</a></h2>
+                <ul class="nav">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="#first-nav" class="nav-link">How it's made?</a></li>
+                    <li><a href="#second-nav" class="nav-link">Chocolate is loved</a></li>
                 </ul>
         </nav>
     </header>
     <main>
         <!-- 1 Section -->
-        <section>
-            <h1>Treat yourself or a loved one to
+        <section class="first-section">
+            <h1 class="h1">Treat yourself or a loved one to
             our finest ingredients for a moment
             of pure delight!</h1>
-            <button type="button">Buy now</button>
-            <a href="#first-nav">How it's made</a>
-            <p>scroll down</p>
+            <button type="button" class="button-buy-now">Buy now</button>
+            <a href="#first-nav" class="link-how-its-made">How it's made</a>
+            <p class="scroll-down">scroll down</p>
         </section>
         <!-- 2 Section -->
-         <section>
+         <section class="second-section">
             <h2 hidden>Information</h2>
             <ul>
                 <li>
-                    <h3>Unsurpassed taste</h3>
-                    <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
+                    <h3 class="second-section-title">Unsurpassed taste</h3>
+                    <p class="second-section-info">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
                     simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
                     chocolate bliss.
                     </p>
                 </li>
                 <li>
-                    <h3>Affordable price</h3>
-                    <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
+                    <h3 class="second-section-title">Affordable price</h3>
+                    <p class="second-section-info">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
                     Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
                     indulge in affordable luxury today.
                     </p>
                 </li>
                 <li>
-                    <h3>Own production</h3>
-                    <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
+                    <h3 class="second-section-title">Own production</h3>
+                    <p class="second-section-info">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
                     the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
                     </p>
                 </li>
             </ul>
          </section>
          <!-- 3 Section -->
-         <section>
-            <h2>it all adds up to one exceptional <span>taste</span> sensation</h2>
-            <p>At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the
+         <section class="third-section">
+            <h2 class="third-section-title">it all adds up to one exceptional <span class="fd9222">taste</span> sensation</h2>
+            <p class="third-section-info">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the
             finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
             exceptional taste sensation.
             </p>
             <ul>
-                <li>
+                <li class="third-section-milk-chocolate">
                     <img 
-                    src="./images/chocolate.jpg" 
+                    src="./images/chocolate.png" 
                     alt="chocolate" 
                     width="206" 
                     height="160">
-                    <h3>milk chocolate</h3>
+                    <h3 class="third-section-milk-chocolate-nuts-title">milk chocolate</h3>
                 </li>
-                <li>
+                <li class="third-section-milk-semi">
                     <img 
-                    src="./images/milk.jpg" 
+                    src="./images/milk.png" 
                     alt="milk" 
                     width="206" 
                     height="160">
-                    <h3>milk</h3>
+                    <h3 class="third-section-milk-semi-title">milk</h3>
                 </li>
-                <li>
+                <li class="third-section-nuts">
                     <img 
-                    src="./images/nuts.jpg" 
+                    src="./images/nuts.png" 
                     alt="nuts" 
                     width="206" 
                     height="160">
-                    <h3>nuts</h3>
+                    <h3 class="third-section-milk-chocolate-nuts-title">nuts</h3>
                 </li>
-                <li>
+                <li class="third-section-milk-semi">
                     <img 
-                    src="./images/cacao.jpg" 
+                    src="./images/cacao.png" 
                     alt="cacao"
                     width="206" 
                     height="160">
-                    <h3>semi - sweet chocolate</h3>
+                    <h3 class="third-section-milk-semi-title">semi - sweet chocolate</h3>
                 </li>
             </ul>
          </section>
          <!-- 4 Section -->
           <section>
-            <h2 id="first-nav">how it's <span>made?</span></h2>
+            <h2 id="first-nav" class="fourth-section-title">how it's <span class="fd9222">made?</span></h2>
             <img 
-            src="./images/cooking-chocolate.jpg" 
+            src="./images/making-chocolate.png" 
             alt="cooking-chocolate" 
             width="600" 
             height="400">
-            <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
+            <h3 class="fourth-section-title-info">Try our chocolates today and discover the perfect balance of flavor</h3>
             <ul>
                 <li>
                     <p>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
@@ -125,11 +133,11 @@
           </section>
           <!-- 5 Section -->
            <section>
-            <h2 id="second-nav"><span>chocolate</span> is loved</h2>
+            <h2 id="second-nav"><span class="fd9222">chocolate</span> is loved</h2>
             <ul>
                 <li>
                     <img 
-                    src="./images/victoria.jpg" 
+                    src="./images/Victoria.png" 
                     alt="Victoria Dobrzhanska" 
                     width="80" 
                     height="80">
@@ -139,7 +147,7 @@
                     </p>
                 </li>
                 <li><img 
-                    src="./images/nazar.jpg" 
+                    src="./images/Nazar.png" 
                     alt="Nazar Babenko" 
                     width="80" 
                     height="80">
@@ -150,7 +158,7 @@
                     </p>
                 </li>
                 <li><img 
-                    src="./images/olena.jpg" 
+                    src="./images/Olena.png" 
                     alt="Olena Kampusch" 
                     width="80" 
                     height="80">
@@ -165,7 +173,7 @@
            </section>
     </main>
     <footer>
-        <p><span>Chocolate</span> a delicious cure for a bad day</p>
+        <p><span class="fd9222">Chocolate</span> a delicious cure for a bad day</p>
         <p>Contact us</p>
         <address>
             <ul>
