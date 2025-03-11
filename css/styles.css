@@ -2,6 +2,7 @@ body {
     font-family: "Montserrat", sans-serif;
     background: #fafafa;
     color: #111;
+    padding-left: 4px;
 }
 
 a {
@@ -260,8 +261,7 @@ footer {
     color: #fd9222;
 }
 /* .footer-line {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     width: 1136px;
-    height: 0px;
     transform: rotate(-180deg);
 } */
