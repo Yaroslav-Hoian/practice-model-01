@@ -1,6 +1,8 @@
+/* -------------------PAGE----------------- */
+
 body {
     font-family: "Montserrat", sans-serif;
-    background: #fafafa;
+    background-color: #fafafa;
     color: #111;
     padding-left: 4px;
 }
@@ -19,194 +21,395 @@ button {
 }
 
 footer {
-    background: #1e1823;
+    background-color: #1e1823;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
 }
 
 .span-word {
     color: #fd9222;
 }
 
-/* Navigation */
-.logo {
+.container {
+    width: 1168px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* -------------------PAGE----------------- */
+
+/* -------------------HEADER----------------- */
+
+.header-logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: -0.03em;
+    display: flex;
+    align-items: flex-start;
 }
-.style-logo {
+
+.header-logo-link {
+    display: block;
+    padding: 28px 0;
+}
+
+.header-logo-accent {
     font-style: italic;
 }
-.nav {
+
+.header-navigation {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14286;
+    line-height: 1.14;
     letter-spacing: -0.02em;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+
 }
-.nav .nav-link:hover,
-.nav .nav-link:focus {
+
+.header-navigation-link {
+    display: block;
+    padding: 28px 0;
+}
+
+.header-navigation .header-navigation-link:hover,
+.header-navigation .header-navigation-link:focus {
     color: #fd9222;
 }
 
-/* 1 Section */
-.first-section {
-    background: #1e1823;
+/* -------------------HEADER----------------- */
+
+/* -------------------HERO----------------- */
+
+.hero-section {
+    background-color: #1e1823;
+    border-radius: 30px;
+    padding-top: 375px;
+    padding-bottom: 46px;
 }
-.h1 {
+
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-container {
+    padding: 0 40px;
+}
+
+.hero-title {
     font-weight: 500;
     font-size: 28px;
-    line-height: 1.21429;
+    line-height: 1.21;
     letter-spacing: -0.03em;
     color: #fff;
+    width: 484px;
 }
-.button-buy-now {
-    background: #fd9222;
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.hero-button {
+    background-color: #fd9222;
     font-weight: 600;
     font-size: 14px;
     color: #fff;
     border-radius: 100px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 14px 40px;
+    border: none;
+    width: 144px;
+    height: 45px;
+    margin-right: 14px;
 }
-.button-buy-now:hover,
-.button-buy-now:focus {
-    background: #fcf1e0;
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #fcf1e0;
     color: #fd9222;
 }
-.button-how-its-made {
-    background: #1e1823;
+
+.hero-link {
+    background-color: #1e1823;
     font-weight: 600;
     font-size: 14px;
     color: #fff;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 14px;
     border: 1px solid #fff;
     border-radius: 100px;
     padding: 14px 40px;
-}
-.button-how-its-made:hover,
-.button-how-its-made:focus {
-    background: #fafafa;
-    color: #fd9222;
-}
-.scroll-down {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.03em;
-    color: #fff;
+    max-width: 183px;
+    max-height: 45px;
+    white-space: nowrap;
 }
 
-/* 2 Section */
-.second-section {
-    background: #1e1823;
+.hero-link:hover,
+.hero-link:focus {
+    background-color: #fafafa;
+    color: #fd9222;
 }
-.second-section-title {
+
+.hero-scroll {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    color: #fff;
+    margin-left: auto;
+}
+
+/* -------------------HERO----------------- */
+
+/* -------------------BENEFITS----------------- */
+
+.benefits-section {
+    background-color: #1e1823;
+    margin-top: 67px;
+}
+
+.benefits-section-list {
+    display: flex;
+    padding: 50px 50px;
+}
+
+.benefits-section-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column ;
+    width: calc((100% - 140px) / 3);
+}
+
+.benefits-section-subtitle {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+    margin-bottom: 18px;
 }
-.second-section-info {
+
+.benefits-section-text {
     font-size: 14px;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* 3 Section */
-.third-section-title {
+/* -------------------BENEFITS----------------- */
+
+/* -------------------TASTE----------------- */
+
+.taste-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 16px;
+    align-items: center;
+}
+
+.title-text-box {
+    margin-bottom: 50px;
+    width: 486px;
+}
+
+.taste-section-title {
     font-weight: 600;
     font-size: 24px;
-    line-height: 1.16667;
+    line-height: 1.16;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 28px;
 }
-.third-section-info {
+
+.taste-section-text {
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-align: center;
 }
-.third-section-milk-chocolate {
-    background: #fd9222;
+
+.taste-section-list {
+    display: flex;
+    gap: 19px;
 }
-.third-section-milk-chocolate-nuts-title {
+
+.chocolate {
+    background-color: #fd9222;
+    border-radius: 15px;
+}
+
+.milk-semi {
+    background-color: #fff;
+    border: 1px solid #fd9222;
+    border-radius: 15px;
+}
+
+.nuts {
+    background-color: #1e1823;
+    border-radius: 15px;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 57px) / 4);
+    padding: 28px 32px;
+    gap: 36px;
+}
+
+.chocolate-nuts-subtitle {
     font-weight: 600;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #fff;
 }
-.third-section-milk {
-    background: #fff;
-}
-.third-section-milk-title {
+
+.milk-semi-subtitle {
     font-weight: 600;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
-.third-section-nuts {
-    background: #1e1823;
+
+/* -------------------TASTE----------------- */
+
+/* -------------------MADE----------------- */
+
+.made {
+    padding: 0 16px 100px 16px;
 }
 
-/* 4 Section */
-.fourth-section-title {
+.made-section-title {
     font-weight: 600;
     font-size: 24px;
-    line-height: 1.16667;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.made-container {
+    display: flex;
+    gap: 20px;
+}
+
+.made-subcontainer {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 32px;
+}
+
+.made-section-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 28px;
+}
+
+.made-section-list {
+    /* list-style-type: initial; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* padding-left: 14px; */
+}
+
+/* -------------------MADE----------------- */
+
+/* -------------------REVIEWS----------------- */
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 100px 16px;
+    gap: 50px;
+}
+
+.reviews-section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: center;
 }
-.fourth-section-title-info {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.33333;
-}
-.fourth-section-list {
-    list-style-type: initial;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
+
+.reviews-list {
+    display: flex;
+    gap: 28px;
 }
 
-/* 5 Section */
-.fifth-section-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.16667;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
+.reviews-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: calc((100% - 56px) / 3);
 }
-.fifth-section-title-list {
+
+.reviews-section-subtitle {
     font-weight: 600;
     font-size: 18px;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-align: center;
 }
-.fifth-section-item {
+
+.reviews-item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    gap: 18px;
+}
+
+.reviews-section-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(17, 17, 17, 0.7);
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
+    background: #fff;
+    padding: 104px 24px 24px 24px;
+    margin-top: -80px;
+    flex: 1
 }
-.fifth-section-button {
+
+.reviews-section-button {
     font-weight: 600;
     font-size: 18px;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: row;
     gap: 14px;
@@ -215,14 +418,34 @@ footer {
     padding: 14px 40px;
     width: 222px;
     height: 50px;
+    margin: 0 auto;
 }
-.fifth-section-button:hover,
-.fifth-section-button:focus {
-    background: #fd9222;
+
+.reviews-section-button:hover,
+.reviews-section-button:focus {
+    background-color: #fd9222;
     color: #fff;
 }
 
-/* Footer */
+/* -------------------REVIEWS----------------- */
+
+/* -------------------FOOTER----------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 86px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 54px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);;
+}
+
 .footer-title {
     font-weight: 500;
     font-size: 28px;
@@ -230,38 +453,63 @@ footer {
     letter-spacing: -0.02em;
     color: #fff;
 }
-.footer-address-title {
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.footer-address-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
     text-align: center;
     color: #fff;
+    font-style: normal;
 }
-.footer-address-contact-item {
+
+.footer-address-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.footer-address-item {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-align: center;
+    font-style: normal;
 }
-.footer-address-contact-item > a {
+
+.footer-address-item > a {
     color: #fff;
 }
-.footer-nav-link {
+
+.nav {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.footer-nav-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14286;
     letter-spacing: -0.02em;
 }
-.footer-nav-link > a {
+
+.footer-nav-item > a {
     color: #fff;
 }
-.footer-nav-link a:hover,
-.footer-nav-link a:focus {
+
+.footer-nav-item a:hover,
+.footer-nav-item a:focus {
     color: #fd9222;
 }
-/* .footer-line {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    width: 1136px;
-    transform: rotate(-180deg);
-} */
+
+/* -------------------FOOTER----------------- */
