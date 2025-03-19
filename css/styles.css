@@ -187,7 +187,7 @@ img {
 
 .benefits-section {
     background-color: #1e1823;
-    margin-top: 67px;
+    margin-top: 72px;
 }
 
 .benefits-section-list {
@@ -331,7 +331,6 @@ img {
 }
 
 .made-section-list {
-    /* list-style-type: initial; */
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
@@ -339,7 +338,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    /* padding-left: 14px; */
 }
 
 /* -------------------MADE----------------- */
@@ -435,7 +433,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
-    padding-bottom: 86px;
+    padding-bottom: 58px;
 }
 
 .footer-box {
@@ -493,22 +491,23 @@ img {
 .nav {
     display: flex;
     gap: 24px;
-    padding-top: 24px;
 }
 
 .footer-nav-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14286;
+    line-height: 1.14;
     letter-spacing: -0.02em;
 }
 
-.footer-nav-item > a {
+.footer-nav-link {
     color: #fff;
+    display: block;
+    padding: 28px 0;
 }
 
-.footer-nav-item a:hover,
-.footer-nav-item a:focus {
+.footer-nav-link:hover,
+.footer-nav-link:focus {
     color: #fd9222;
 }
 
